@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+.slide-1{
+    width: 100%;
+    background-color: aqua;
+}
+/* SLIDE 2SHORTLIST BATHROOM */
+.shortlist-bathroom{
+    height: 700px;
+    background-image: url("https://jaquar.com/Themes/Jaquar/Content/images/everyday_banner-1.jpg");
+}
+.content-left{
+    height: 500px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.content-left h1{
+    color: white;
+    font-size: x-large;
+}
+.content-left a{
+    color: #fff;
+    background-color: #262B2f;
+    padding: 5px 40px;
+}
+
+.left-inner{
+    position: absolute;
+}
+.content-right{
+    height: 522px;
+    text-align: center;
+}
+.content-right h1{
+    text-transform: uppercase;
+    font-size: x-large;
+}
+.content-right-inner{
+    height: 550px;
+    /* background-color: yellow;    */
+}
+.content-right-inner a{
+    color: black;
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    padding-right: 7px;
+    line-height: 20px;
+    display: block;
+    margin: 16px 0;
+    text-transform: uppercase;
+    display: block;
+    padding: 0;
+    text-align: center
+}
+/*  */
+.world-jaquar{
+    background: -webkit-linear-gradient(top,#9a8e9a 0%,#bd908a 100%);
+    background: linear-gradient(to bottom,#9a8e9a 0%,#bd908a 100%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+.world-content{
+    display: flex;
+}   
+.world-left{
+    width: 50%;
+}
+.world-left img{
+    width:100%
+}
+.world-right{
+    height: 430px;
+    /* background-color: white; */
+    width: 50%;
+}
+.world-right-content h1{
+    margin: 0;
+    font-size: xx-large;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.world-right-content p{
+    text-align: center;
+    padding: 0 10rem;
+    margin-top: 1rem;
+}
+.world-right-icons{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+
+}
+.world-right-icons h6{
+    margin: 10px auto 0;
+    color: #000;
+    text-align: center;
+    max-width: 160px;
+}
+.world-right-icons i{
+    text-align: center;
+    margin-left: 6.5rem;
+}
+.icon-2 i{
+    margin-left: 0rem;
+}
+.world-right-links{
+    margin-top: 6rem;
+    margin-left: 14rem;
+}
+.world-right-links a{
+    text-transform: uppercase;
+    color: white;
+    background-color: #262B2f;
+    padding: 1rem 4rem;
+}
+/* LIGHTING BANNER */
+.lighting-banner{
+    position: relative;
+    max-width: 100%;
+}
+.lighting-banner img{
+    height: auto;
+    width: 100%;
+}
+.lighting-heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.lighting-heading h1{
+    background-color: white;
+    text-transform: uppercase;
+}
+.lighting-heading  ul{
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    padding: 0;
+}
+.lighting-heading ul li{
+    padding: 1.5rem 3rem;
+    font-size: larger;
+    border-right: 1px white solid;
+}
+.lighting-heading li:last-child{
+    border-right:none;
+}
+.lighting-heading ul li a{
+    border-left: white;
+    color: white;
+    font-weight: 700;
+}
+/* 5th slide */
+#Dealer{
+    text-align: center;
+    background-color: rgb(155, 150, 150);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#Dealer h1{
+    color: white;
+    font-weight: 100;
+}
+#Dealer p{
+    color: white;
+}
+#Dealer .dealerBtn{
+    text-transform: uppercase;
+    text-align: left;
+    padding: 1rem 2.5rem;
+    padding-left: 1rem;
+    background-color: whitesmoke;
+    border: none;
+    font-weight: 300;
+}
+#Dealer .dealerBtn i{
+    padding-left: 5rem;
+    text-align: right;
+}
+.row-left{
+    border-right: 1px whitesmoke solid;
+}
